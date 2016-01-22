@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+      <title>Loan Application</title>
+
+      <link rel="stylesheet" type="text/css" href="styles.css" >
+      
+  </head>
+    <body>
+      <div class="mainContainer">
+        <div class="navigation">
+          <a href="Application for Home Loan">Application for Loan</a> 
+         <!-- <a href="Add Music">Add Music</a>
+          <a href="Profile">Profile</a>-->
+        </div>
+
+        <!--Beginning of form-->
+        <div class="options">
+          <form action="form.html" method="POST">    
+            <fieldset>
+              <p>
+                <label>First Name</label>
+                <input type="text" firstName="firstName" class="field" required pattern="[a-zA-Z0-9]+" />
+              </p>
+              <p>
+                <label>Middle Initial</label>
+                <input type="text" midInitial="midInitial" class="field" required pattern="[a-zA-Z0-9]+" />
+              </p>
+              <p>
+                <label>Last Name</label>
+                <input type="text" lastName="lastName" class="field" required pattern="[a-zA-Z0-9]+"/>
+              </p>
+              <p>
+                <label>Address</label>
+                <input type="text" address="address" class="field" required pattern="[a-zA-Z0-9]+" />
+              </p>
+              <p>
+                <label>Occupation</label>
+                <input type="text" occupation="occupation" class="field" required pattern="[a-zA-Z0-9]+" />
+              </p>
+              <p>
+                <label>Employer</label>
+                <input type="text" employer="empName" class="field" required pattern="[a-zA-Z0-9]+" />
+              </p>
+              <p>
+                <label>Employer Address</label>
+                <input type="text" empAddress="empAddress" class="field" required pattern="[a-zA-Z0-9]+" />
+              </p>
+            </fieldset>
+            </div>            
+              <fieldset>
+                <label for="feedback-type">Select Loan Type</label>
+                  <select id="feeback-type" name="type">
+                    <option>Commercial</option>
+                    <option>Personal</option>
+                    <option>Real Estate</option>
+                    <option>Mortgage</option>
+                  </select>
+              <!--</fieldset>-->
+              <br/>
+              <p></p>
+              <!--<fieldset>-->
+                <label for="loan-amount">Loan Amount</label>
+                <input type="loan" name="loan-amount" placeholder="500000">
+                <br/>
+                <p></p>
+              <!--</fieldset>-->
+
+              <!--<fieldset>-->
+                <input type="radio" name="product-type" value="fiveyears">5 Years
+                <input type="radio" name="product-type" value="fifteenyears">15 Years
+                <input type="radio" name="product-type" value="thirtyyears">30 Years  
+              <!--</fieldset>-->        
+              <br/>
+              <p></p>
+              <!--<fieldset>-->
+              <label for="special-conditions">Check All That Apply</label>
+              </br>
+              <input type="checkbox" name="I have a down payment" value="I have a down payment">I have a down payment
+              <input type="checkbox" name="out-of-state resident" value="out-of-state resident">Out-of-state resident
+              <input type="checkbox" name="married" value="married">Married
+              <input type="checkbox" name="co-signed" value="co-signed">Loan will be co-signed
+              <!--</fieldset>-->
+              <br/>
+              <p></p>
+              <!--<fieldset>-->
+                <label for="comments">Comments</label>
+                <!-- textarea id="comments" name="comments"></textarea>-->
+                <input type="text" name="comments" class="submissionfield">
+              <!--</fieldset>-->
+          	  <br/>
+              <!--<fieldset>-->
+                <label for="email">Email Address</label>
+                <input type="email" name="email" class="field" required pattern="[a-zA-Z0-9]+" />
+              <!--</fieldset>-->
+              <br/>  
+
+              <!--<fieldset>-->
+                <label for="telephone" name="telephone">Telephone</label>
+                <input type="value" name="telephone" class="field"  required pattern="[a-zA-Z0-9]+" />
+              <p></p> 
+              <label for="urllinkedin">Linked In Profile URL</label>
+              <input type="url" name="urllinkedin" placeholder="https://www.linkedin.com/"
+              <a href="https://www.linkedin.com/""></a>
+              </fieldset>
+		<article>
+ 		 <footer>Copyright &copy; SandyJones, January 22, 2016</footer>
+		</article>
+  </body>
+
+</html>
